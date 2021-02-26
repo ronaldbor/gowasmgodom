@@ -39,4 +39,21 @@ Compile your sources:
 4. If you want logging information, open a console in the browser. For Google Chrome: Menu -> More Tools -> Developer Tools.
 
 
+## License
+
+Free to use, as far it does not infringe the rights of the original.
+See https://github.com/siongui/godom.
+
+## Credits
+
+A huge credit to https://github.com/siongui/godom, which I used as a starting point.
+This original code is clear and easy understandable; I assumed it was ment to stay close at the JavaScript interface for DOM elements.
+
+I added the event-stuff and some functions to easily add elements (see ```events_js.go``` and ```extra_js.go```), and to abstract a little bit from the strict JS dom-interface.
+
+
+https://github.com/siongui/godom
+go get github.com/siongui/godom/wasm
+
+cp -r /root/go/src/github.com/siongui/godom/wasm
 
