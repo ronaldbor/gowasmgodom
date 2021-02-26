@@ -1,0 +1,10 @@
+CREDITS:
+========
+
+Copied from:
+https://github.com/siongui/godom
+go get github.com/siongui/godom/wasm
+
+Reason for copying:
+Adding functionality
+
