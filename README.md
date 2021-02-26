@@ -49,7 +49,14 @@ See https://github.com/siongui/godom.
 A huge credit to https://github.com/siongui/godom/wasm, which I used as a starting point.
 This original code is clear and easy understandable; I assumed it was ment to stay close at the JavaScript interface for DOM elements.
 
-I added the event-stuff and some functions to easily add elements (see ```events_js.go``` and ```extra_js.go```), and to abstract a little bit from the strict JS dom-interface.
+I added the event-stuff and some functions to easily add elements.
+1. ```events_js.go```
+2. ```extra_js.go```
+2. ```location.go```
+2. ```navigation.go```
+2. ```history.go```
+
+I also tried to abstract a little bit from the strict JS dom-interface.
 
 
 
