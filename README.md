@@ -41,7 +41,7 @@ Compile your sources:
 
 ## License
 
-Free to use, as far it does not infringe the rights of the original.
+Check if it does not infringe the rights of the original.
 See https://github.com/siongui/godom.
 
 ## Credits
