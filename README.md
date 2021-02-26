@@ -1,1 +1,42 @@
 # gowasmgodom
+
+Example of combination of golang, web assembly and a godom interface.
+
+Golang is used as the programming language and compiled to the webassembly format, which runs in the webbrowser.
+It uses the godomwasm library (see src/ronald/godom/wasm) for creating DOM elements from Golang and attaches some eventhandlers to it.
+The godomwasm library uses the dom by invoking its functions via the syscall/js.
+
+
+## Prepare environment
+
+Download Golang at https://golang.org/dl/, select the version for Linux.
+For example: https://golang.org/dl/go1.14.6.linux-amd64.tar.gz
+
+Unpack the tar.gz-file, note the location and edit ```release.com``` accordingly.
+
+
+## Compiling
+
+Reveal the Go compiler: ```source ./release.com```
+
+1. The file ```server.go``` is the webserver and serves the code that runsin the browser client.
+2. The file ```app.go``` is the application and creates the DOM elements that buuilds the HTML-page. 
+
+Compile your sources:
+1. Compiling ```server.go```: ```sh ./comp.sh linux server.go```, resulting in ```server.bin```
+2. Compiling ```app.go```   : ```sh ./comp.sh wasm  app.go```   , resulting in ```app.wasm```, plus ```wasm_exec.js```
+
+
+## Running the website
+
+1. You need the following files:
+      ```index.html```
+      ```app.wasm```
+      ```gluecode.js```
+      ```wasm_exec.js``` (the last one can be found at the same location as the go-compiler, in ```misc/wasm/wasm_exec.js```)
+2. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
+3. Open a browser and go to ```http://localhost:8083```
+4. If you want logging information, open a console in the browser. For Google Chrome: Menu -> More Tools -> Developer Tools.
+
+
+
