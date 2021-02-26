@@ -19,8 +19,8 @@ Unpack the tar.gz-file, note the location and edit ```release.com``` accordingly
 
 Reveal the Go compiler: ```source ./release.com```
 
-1. The file ```server.go``` is the webserver and serves the code that runsin the browser client.
-2. The file ```app.go``` is the application and creates the DOM elements that buuilds the HTML-page. 
+1. The file ```server.go``` is the webserver and serves the code that runs in the browser client.
+2. The file ```app.go``` is the application and creates the DOM elements that builds the HTML-page. 
 
 Compile your sources:
 1. Compiling ```server.go```: ```sh ./comp.sh linux server.go```, resulting in ```server.bin```
@@ -46,14 +46,10 @@ See https://github.com/siongui/godom.
 
 ## Credits
 
-A huge credit to https://github.com/siongui/godom, which I used as a starting point.
+A huge credit to https://github.com/siongui/godom/wasm, which I used as a starting point.
 This original code is clear and easy understandable; I assumed it was ment to stay close at the JavaScript interface for DOM elements.
 
 I added the event-stuff and some functions to easily add elements (see ```events_js.go``` and ```extra_js.go```), and to abstract a little bit from the strict JS dom-interface.
 
 
-https://github.com/siongui/godom
-go get github.com/siongui/godom/wasm
-
-cp -r /root/go/src/github.com/siongui/godom/wasm
 
