@@ -21,8 +21,6 @@ func eventHandler (event Event) {
    Log ("      TagName     = '%s'", eventData.Target.TagName)
    Log ("      Value       = '%s'", eventData.Target.Value)
    Log ("      TextContent = '%s'", eventData.Target.TextContent)
-
-   // wasm.OpenWebSiteInNewTab ("http://192.168.2.108/camping")
 }
 
 
@@ -58,7 +56,7 @@ func main () {
 
 
 func main5 () {
-   Log ("LOGGING: Starting main")
+   Log ("LOGGING: Starting main5")
    Alert ("Hi there, press OK to start")
 
    // Get Document.body
