@@ -30,9 +30,9 @@ Compile your sources:
 ## Running the website
 
 You need the following files:
-1. ```server.bin```, compiled from the source ```server.go```
+1. ```server.bin``` (Compiled from the source ```server.go```)
 2. ```index.html```
-3. ```app.wasm``` (Compiled from the source ```app.go```)
+3. ```app.wasm``` (ompiled from the source ```app.go```)
 4. ```gluecode.js```
 5. ```wasm_exec.js``` (Copied by comp.sh from the location of the go-compiler)
 
