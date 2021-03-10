@@ -32,7 +32,7 @@ Compile your sources:
 You need the following files:
 - ```server.bin``` (Compiled from the source ```server.go```)
 - ```index.html```
-- ```app.wasm``` (ompiled from the source ```app.go```)
+- ```app.wasm``` (Compiled from the source ```app.go```)
 - ```gluecode.js```
 - ```wasm_exec.js``` (Copied by comp.sh from the location of the go-compiler)
 
@@ -40,8 +40,8 @@ You need the following files:
 2. Open a browser and go to ```http://localhost:8083```
 
 If you want logging information, open a console in the browser.\
-For Google Chrome: Menu -> More Tools -> Developer Tools\
-For Firefox: Menu -> Web Developer -> Web Console
+- For Google Chrome: Menu -> More Tools -> Developer Tools\
+- For Firefox: Menu -> Web Developer -> Web Console
 
 
 ## License
