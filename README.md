@@ -39,8 +39,8 @@ Compile your sources:
 2. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
 3. Open a browser and go to ```http://localhost:8083```
 
-If you want logging information, open a console in the browser.
-For Google Chrome: Menu -> More Tools -> Developer Tools
+If you want logging information, open a console in the browser.\
+For Google Chrome: Menu -> More Tools -> Developer Tools\
 For Firefox: Menu -> Web Developer -> Web Console
 
 
