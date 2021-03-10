@@ -29,12 +29,12 @@ Compile your sources:
 
 ## Running the website
 
-You need the following files:\
-   ```server.bin```\
-   ```index.html```\
-   ```app.wasm```\
-   ```gluecode.js```\
-   ```wasm_exec.js```
+You need the following files:
+1. ```server.bin```
+2. ```index.html```
+3. ```app.wasm```
+4. ```gluecode.js```
+5. ```wasm_exec.js```
 
 The last one is copied by the comp.sh from ```<location-go-compiler>/misc/wasm/wasm_exec.js```
 
