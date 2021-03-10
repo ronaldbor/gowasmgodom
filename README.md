@@ -35,7 +35,7 @@ Compile your sources:
       ```index.html```
       ```app.wasm```
       ```gluecode.js```
-      ```wasm_exec.js``` (the last one is copied by the comp.sh from ```\<go-compiler\>/misc/wasm/wasm_exec.js```)
+      ```wasm_exec.js``` (the last one is copied by the comp.sh from ```<location-go-compiler>/misc/wasm/wasm_exec.js```)
 2. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
 3. Open a browser and go to ```http://localhost:8083```
 4. If you want logging information, open a console in the browser. For Google Chrome: Menu -> More Tools -> Developer Tools.
