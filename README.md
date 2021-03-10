@@ -14,7 +14,7 @@ I am working on CentOS 8, so normally when I issue the command "go" for the firs
 If you are working with other Linux OSses, you can just download Golang at https://golang.org/dl/, and select the version for Linux.
 For example: https://golang.org/dl/go1.14.6.linux-amd64.tar.gz
 
-Unpack the tar.gz-file, and add the "<unpacked-map>/bin" to your PATH-variable to make "go" available.
+Unpack the tar.gz-file, and add the "\<unpacked-map\>/bin" to your PATH-variable to make "go" available.
 
 
 ## Compiling
