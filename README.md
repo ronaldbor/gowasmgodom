@@ -19,8 +19,6 @@ Unpack the tar.gz-file, and add the "\<unpacked-map\>/bin" to your PATH-variable
 
 ## Compiling
 
-Reveal the Go compiler: ```source ./release.com```
-
 1. The file ```server.go``` is the webserver and serves the code that runs in the browser client.
 2. The file ```app.go``` is the application and creates the DOM elements that builds the HTML-page. 
 
@@ -31,13 +29,17 @@ Compile your sources:
 
 ## Running the website
 
-1. You need the following files:
-      ```index.html```
-      ```app.wasm```
-      ```gluecode.js```
-      ```wasm_exec.js``` (the last one is copied by the comp.sh from ```<location-go-compiler>/misc/wasm/wasm_exec.js```)
-2. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
-3. Open a browser and go to ```http://localhost:8083```
+You need the following files:\
+   ```server.bin```\
+   ```index.html```\
+   ```app.wasm```\
+   ```gluecode.js```\
+   ```wasm_exec.js```
+
+The last one is copied by the comp.sh from ```<location-go-compiler>/misc/wasm/wasm_exec.js```
+
+1. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
+2. Open a browser and go to ```http://localhost:8083```
 
 If you want logging information, open a console in the browser.\
 For Google Chrome: Menu -> More Tools -> Developer Tools\
