@@ -30,7 +30,7 @@ Compile your sources:
 ## Running the website
 
 You need the following files:
-1. ```server.bin``` (Compiled from the source ```server.go```)
+1. ```server.bin```, compiled from the source ```server.go```
 2. ```index.html```
 3. ```app.wasm``` (Compiled from the source ```app.go```)
 4. ```gluecode.js```
