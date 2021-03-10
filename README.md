@@ -2,8 +2,8 @@
 
 Example of combination of golang, web assembly and a godom interface.
 
-Golang is used as the programming language and compiled to the webassembly format, which runs in the webbrowser.
-It uses the godomwasm library (see src/ronald/godom/wasm) for creating DOM elements from Golang and attaches some eventhandlers to it.
+Golang is used as the programming language and compiled to the webassembly format, which runs in the webbrowser.\
+It uses the godomwasm library (see src/ronald/godom/wasm) for creating DOM elements from Golang and attaches some eventhandlers to it.\
 The godomwasm library uses the dom by invoking its functions via the syscall/js.
 
 
@@ -11,9 +11,7 @@ The godomwasm library uses the dom by invoking its functions via the syscall/js.
 
 I am working on CentOS 8, so normally when I issue the command "go" for the first time, it will fail to find it and suggests to install it. Confirm.
 
-If you are working with other Linux OSses, you can just download Golang at https://golang.org/dl/, and select the version for Linux.
-For example: https://golang.org/dl/go1.14.6.linux-amd64.tar.gz
-
+If you are working with other Linux OSses, you can just download Golang at https://golang.org/dl/, and select the version for Linux. For example: https://golang.org/dl/go1.14.6.linux-amd64.tar.gz\
 Unpack the tar.gz-file, and add the "\<unpacked-map\>/bin" to your PATH-variable to make "go" available.
 
 
@@ -39,8 +37,8 @@ You need the following files:
 1. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
 2. Open a browser and go to ```http://localhost:8083```
 
-If you want logging information, open a console in the browser.\
-- For Google Chrome: Menu -> More Tools -> Developer Tools\
+If you want logging information, open a console in the browser.
+- For Google Chrome: Menu -> More Tools -> Developer Tools
 - For Firefox: Menu -> Web Developer -> Web Console
 
 
