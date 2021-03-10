@@ -30,13 +30,11 @@ Compile your sources:
 ## Running the website
 
 You need the following files:
-1. ```server.bin```
+1. ```server.bin``` (Compiled from the source ```server.go```)
 2. ```index.html```
-3. ```app.wasm```
+3. ```app.wasm``` (Compiled from the source ```app.go```)
 4. ```gluecode.js```
-5. ```wasm_exec.js```
-
-The last one is copied by the comp.sh from ```<location-go-compiler>/misc/wasm/wasm_exec.js```
+5. ```wasm_exec.js``` (Copied by comp.sh from the location of the go-compiler)
 
 1. Start the webserver: ```./server.bin``` (or: ```go run server.go```)
 2. Open a browser and go to ```http://localhost:8083```
